@@ -25,7 +25,7 @@
 		globeMaterial.specular = new THREE.Color('grey');
 		globeMaterial.shininess = 15;
 	  });
-  
+   
 	  const directionalLight = world.lights().find(light => light.type === 'DirectionalLight');
 	  directionalLight && directionalLight.position.set(1, 1, 1); // change light position to see the specularMap's effect
 	</script>
